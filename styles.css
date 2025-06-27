@@ -274,3 +274,10 @@ FEATURES
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+/* RECENT */
+
+.books__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
