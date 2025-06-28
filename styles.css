@@ -230,6 +230,7 @@ FEATURES
 
 .books {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book {
@@ -275,9 +276,15 @@ FEATURES
     color: #bfbfbf;
 }
 
-/* RECENT */
+/* EXPLORE */
 
-.books__wrapper {
+#explore {
+    background-color: rgba(115, 66, 214, 0.1)
+}
+
+.row__wrapper {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
